@@ -1,4 +1,4 @@
-🍢 [日本語のREADME](README.ja.md)
+🍢 [日本語の README](README.ja.md)
 
 # Tech Quotes API
 
@@ -15,10 +15,8 @@ This project provides a collection of 100 quotes from famous tech industry figur
 ### Endpoints
 
 - `GET /api/quotes/{id}` - Returns a specific quote by ID (1-100)
-  
-  Example: `/api/quotes/42` returns quote #42
 
-- `GET /api/quotes/random` - Returns a random quote from the collection
+  Example: `/api/quotes/42` returns quote #42
 
 ### Response Format
 
@@ -41,22 +39,26 @@ This project provides a collection of 100 quotes from famous tech industry figur
 ## Local Development
 
 1. Clone the repository
+
    ```
    git clone https://github.com/yourusername/tech-quotes-api.git
    cd tech-quotes-api
    ```
 
 2. Install dependencies
+
    ```
    npm install
    ```
 
 3. Start the development server
+
    ```
    npm run dev
    ```
 
 4. Build for production
+
    ```
    npm run build
    ```
