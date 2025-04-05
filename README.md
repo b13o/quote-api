@@ -41,7 +41,7 @@ This project provides a collection of 100 quotes from famous tech industry figur
 1. Clone the repository
 
    ```
-   git clone https://github.com/yourusername/tech-quotes-api.git
+   git clone https://github.com/b13o/tech-quotes-api.git
    cd tech-quotes-api
    ```
 

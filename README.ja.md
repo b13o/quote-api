@@ -43,7 +43,7 @@
 1. リポジトリをクローン
 
    ```
-   git clone https://github.com/yourusername/tech-quotes-api.git
+   git clone https://github.com/b13o/tech-quotes-api.git
    cd tech-quotes-api
    ```
 
