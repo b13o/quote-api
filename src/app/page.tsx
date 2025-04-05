@@ -2,11 +2,13 @@
 
 import { useEffect, useState } from "react";
 
+const BASE_URL = "https://b13o.github.io/quote-api";
+
 async function fetchRandomQuote() {
   const id = Math.floor(Math.random() * 100) + 1;
   const response = await fetch(
     // "https://programming-quotesapi.vercel.app/api/random"
-    `/api/quotes/${id}`
+    `${BASE_URL}/api/quotes/${id}`
   );
   return response.json();
 }
