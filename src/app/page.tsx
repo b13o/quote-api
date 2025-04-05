@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const BASE_URL = "https://b13o.github.io/quote-api";
+const BASE_URL = "https://b13o.github.io/tech-quotes-api";
 
 async function fetchRandomQuote() {
   const id = Math.floor(Math.random() * 100) + 1;
